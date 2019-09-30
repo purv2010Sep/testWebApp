@@ -6,7 +6,7 @@ This test project is built on selenium and TestNG  automation test framework, sc
 Getting started:
 
 Git Repository: 
-[IPS bulk Modelling Web Tests](https://github.com/oneiress/ips-bulk-modelling-web-tests.git)
+[Web App Test](git@github.com:pankajsir/testWebApp.git)
 
 **Architecture**
 
@@ -22,7 +22,7 @@ common - Core library
 
  **Test**
  
-WebModellingTestClass  - actual test
+webAppTest  - actual test
 
 ## Prerequisites
 
@@ -130,7 +130,7 @@ Right click and choose Run As --> TestNG suit
 	- Docker pull selenium/standalone-chrome-debug
 	- docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome-debug
 		
-- if you want to view the execution - download: VNC viewer – for running the web browsers. and following is the configuration
+- if you want to view the execution - download: VNC viewer â€“ for running the web browsers. and following is the configuration
 	-  Run the VNC viewer
 	- Click on the new connection. 
 	- In the VNC server field, enter "http://localhost:5900"
