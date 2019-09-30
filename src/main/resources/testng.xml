@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suites">
+	<test thread-count="5" name="Test" parallel="false">
+		<classes>
+			<class name="assessment.com.au.web.BorrowCalculatorTestClass"/>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- BulkmodellingSuite -->

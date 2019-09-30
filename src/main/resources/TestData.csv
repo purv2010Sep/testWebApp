@@ -1,0 +1,2 @@
+TestCaseName,Field1,Value1,,Field2,Value2,,Field3,Value3,Field4,Value4,,,,,
+customerDetails,ApplicationType,Single,Dependants,0,PropertyType,Home to live in,PrimaryIncome,80000,OtherIncome,10000,LivingExpenses,500,CurrentHLPayment,0,OtherLoanPayment,100,OtherExpenses,0,CreditCardLimit,10000
