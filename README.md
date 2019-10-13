@@ -81,7 +81,7 @@ Also you can run above 2 commands in one command:  Gradle CompileJava CompileTes
 Following command runs the specified task mentioned in build.gradle file and run the tests methods/class/packages provided in testNg XML file in source folder.
 
 ```bash
-Gradle sanityTest
+Gradle webTest
 ```
 ## How to prepare testNG.XML file to run methods, multiple methods and class
 
