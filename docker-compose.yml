@@ -1,0 +1,17 @@
+version: '3.2'
+services:
+  selenium:
+    image: selenium/standalone-chrome-debug
+    ports: 
+      - "4444:4444"
+      - "5900:5900"
+    volumes:
+      - "/dev/shm:/dev/shm"
+  gradle:
+    image: "gradle:jdk11"
+    depends_on: 
+      - selenium
+    volumes:
+      - ".:/home/gradle/project"
+    working_dir: /home/gradle/project
+    command: gradle sanitytest --rerun-tasks
