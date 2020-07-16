@@ -1,0 +1,10 @@
+name: "performance tests"
+
+steps:
+  - label: ":buildkite: Run Gatling scripts"
+    command:
+      chmod +x ./build_gatling.sh
+      ./build_gatling.sh
+    branches: master
+    agents:
+      queue: build.linux
